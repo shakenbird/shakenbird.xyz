@@ -1,4 +1,4 @@
 body {
   background-image: url("https://global.shakenbird.repl.co/assets/wave-haikei.svg");
-  background-size: cover;
+  background-size: contain;
 }
