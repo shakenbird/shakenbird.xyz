@@ -1,4 +1,14 @@
 body {
   background-image: url("https://global.shakenbird.repl.co/assets/blurry-gradient-haikei.svg");
   background-size: cover;
+  font-family: 'Inter', sans-serif;
+  background-color:#ffffff;
+  font-weight: 600;
+}
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 90px;
+  position: relative;
+  bottom:-200px;
+  vertical-align:bottom;
 }
