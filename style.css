@@ -6,7 +6,7 @@ body {
   color: white;
 }
 @supports (-webkit-text-stroke: 1px black) {
-  head {
+  .head {
   -webkit-text-stroke: 2.5px #2d394b;
   -webkit-text-fill-color: #ffffff;
   font-size: 90px;
