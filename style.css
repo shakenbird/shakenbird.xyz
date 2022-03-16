@@ -2,7 +2,7 @@ body {
   background-color: #fcfcfc;
   background-size: cover;
   font-family: 'Inter', sans-serif;
-  color: white;
+  color: #ffffff;
 }
 @supports (-webkit-text-stroke: 1px black) {
   .head {
