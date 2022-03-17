@@ -9,12 +9,13 @@ body {
   font-size: 70px;
   position: relative;
   vertical-align:bottom;
+  bottom:-200px;
 }
 ion-icon {
   font-size: 44px;
   position: relative;
   vertical-align:bottom;
-  bottom: -200px;
+  bottom: -250px;
 }
 .b {
   margin-right: 24px;
