@@ -6,16 +6,15 @@ body {
 }
 .head {
   font-size: 70px;
-  align-items: center;
+  position: relative;
+  vertical-align:bottom;
+  bottom: -200px;
 }
 ion-icon {
   font-size: 44px;
   padding: 24px;
-  align-items: center;
-  bottom: -200px;
-}
-.parent {
   position: relative;
   vertical-align:bottom;
   bottom: -250px;
+  align-items: center;
 }
