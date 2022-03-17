@@ -4,17 +4,23 @@ body {
   font-family: 'Inter', sans-serif;
   color: #2d394b;
 }
+.center {
+margin: auto;
+width: 60%;
+border: 5px solid #FFFF00;
+padding: 10px;
+}
+
 .head {
   font-size: 70px;
   position: relative;
   vertical-align:bottom;
-  bottom: -200px;
 }
 ion-icon {
   font-size: 44px;
   position: relative;
   vertical-align:bottom;
-  bottom: -250px;
+  bottom: -200px;
 }
 .b {
   margin-right: 24px;
