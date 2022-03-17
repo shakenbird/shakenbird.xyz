@@ -12,6 +12,7 @@ body {
 }
 ion-icon {
   font-size: 44px;
+  padding: 24px;
   position: relative;
   vertical-align:bottom;
   bottom: -250px;
@@ -20,9 +21,3 @@ a, a:hover, a:focus, a:active {
       text-decoration: none;
       color: inherit;
  }
-.b1 {
-  margin-right: 50px;
-}
-.b2 {
-  margin-left: 50px;
-}
