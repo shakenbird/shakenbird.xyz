@@ -17,6 +17,12 @@ ion-icon {
   vertical-align:bottom;
   bottom: -250px;
 }
-a {
+a:link, a:visited {
+  background-color: none;
+  text-align: center;
   text-decoration: none;
+}
+
+a:hover, a:active {
+  cursor: pointer;
 }
