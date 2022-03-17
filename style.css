@@ -18,7 +18,7 @@ ion-icon {
   bottom: -250px;
 }
 a:link, a:visited {
-  background-color: none;
+  background-color: transparent;
   text-align: center;
   text-decoration: none;
 }
