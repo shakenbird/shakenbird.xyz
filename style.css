@@ -12,10 +12,15 @@ body {
 }
 ion-icon {
   font-size: 44px;
-  padding: 24px;
   position: relative;
   vertical-align:bottom;
   bottom: -250px;
+}
+.b {
+  margin-right: 24px;
+}
+.b1 {
+  margin-left: 24px;
 }
 a, a:focus, a:active, a:hover {
       text-decoration: none;
