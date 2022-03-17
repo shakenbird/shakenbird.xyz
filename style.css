@@ -6,6 +6,7 @@ body {
 }
 .head {
   font-size: 70px;
+  bottom: -250px;
   position: relative;
   vertical-align:bottom;
   align-items: center;
