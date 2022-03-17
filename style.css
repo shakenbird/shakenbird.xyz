@@ -9,11 +9,10 @@ body {
   position: relative;
   bottom: -200px;
   vertical-align:bottom;
+  display: flex;
 }
 ion-icon {
   font-size: 44px;
   padding: 24px;
-}
-.icons {
-  display: flex;
+  align-items: center;
 }
