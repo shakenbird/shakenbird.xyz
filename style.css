@@ -17,3 +17,6 @@ ion-icon {
   vertical-align:bottom;
   bottom: -250px;
 }
+a {
+  text-decoration: none;
+}
