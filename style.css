@@ -12,4 +12,6 @@ body {
 }
 ion-icon {
   font-size: 44px;
+  padding: 24px;
+  display: flex;
 }
