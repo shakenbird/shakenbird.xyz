@@ -17,11 +17,7 @@ ion-icon {
   vertical-align:bottom;
   bottom: -250px;
 }
-a, a:focus, a:active {
+a, a:focus, a:active, a:hover {
       text-decoration: none;
       color: inherit;
  }
-a:hover {
-  background-color: #2d394b;
-  opacity: 0.3;
-}
