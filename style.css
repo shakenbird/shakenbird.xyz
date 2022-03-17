@@ -9,7 +9,6 @@ body {
   position: relative;
   vertical-align:bottom;
   bottom: -200px;
-  align-items: center
 }
 ion-icon {
   font-size: 44px;
@@ -17,5 +16,4 @@ ion-icon {
   position: relative;
   vertical-align:bottom;
   bottom: -250px;
-  align-items: center;
 }
