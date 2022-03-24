@@ -7,7 +7,7 @@ body {
 
 .head {
   font-size: 70px;
-  position: absolute;
+  position: relative;
   vertical-align:bottom;
   bottom:-200px;
 }
