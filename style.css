@@ -3,13 +3,13 @@ body {
   background-size: cover;
   font-family: 'Inter', sans-serif;
   color: #2d394b;
-  bottom:-200px;
 }
 
 .head {
   font-size: 70px;
-  position: relative;
+  position: absolute;
   vertical-align:bottom;
+  bottom:-200px;
 }
 ion-icon {
   font-size: 44px;
