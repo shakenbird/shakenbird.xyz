@@ -1,11 +1,7 @@
 function Time() {
- // Creating object of the Date class
  var date = new Date();
- // Get current hour
  var hour = date.getHours();
- // Get current minute
  var minute = date.getMinutes();
- // Get current second
  var second = date.getSeconds();
  // Variable to store AM / PM
  var period = "";
@@ -45,9 +41,3 @@ function update(t) {
 }
 Time();
 "use strict";
-
-const CONSTANTS = {
-    API_URL: "https://api.lanyard.rest/v1",
-    WEBSOCKET_URL: "wss://api.lanyard.rest/socket",
-    HEARTBEAT_PERIOD: 1000 * 30
-}
