@@ -12,6 +12,8 @@ body {
   margin: auto;
   position: relative;
   display: block;
+  top: 25vh;
+  z-index: 999;
 }
 ion-icon {
   font-size: 44px;
