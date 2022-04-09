@@ -22,8 +22,6 @@ ion-icon {
   margin: auto;
   position: relative;
   display: block;
-  top: 25vh;
-  z-index: 999;
   padding-top: 10px;
   padding-bottom: 10px;
 }
