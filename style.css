@@ -19,11 +19,7 @@ ion-icon {
   font-size: 44px;
   position: relative;
   vertical-align:bottom;
-  margin: auto;
-  position: relative;
-  display: block;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  bottom: -120px;
 }
 .b {
   margin-right: 24px;
@@ -40,6 +36,6 @@ a, a:focus, a:active, a:hover {
      font-size: 50px;
    }
    ion-icon {
-     font-size: 34px;
+     font-size: 34;
    }
  }
