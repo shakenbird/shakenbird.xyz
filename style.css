@@ -38,5 +38,6 @@ a, a:focus, a:active, a:hover {
    }
    ion-icon {
      font-size: 34;
+     top: 30vh;
    }
  }
