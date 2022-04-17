@@ -3,6 +3,7 @@ body {
   background-size: cover;
   font-family: 'Inter', sans-serif;
   color: #2d394b;
+  overflow: hidden;
 }
 
 .head {
