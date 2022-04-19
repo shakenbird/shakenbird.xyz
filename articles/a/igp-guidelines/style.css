@@ -1,0 +1,217 @@
+body {
+  background-color: white;
+  background-size: cover;
+  font-family: 'Inter', sans-serif;
+  color: #2d394b;
+  font-size: 14px;
+  bottom: -20px;
+}
+
+.head {
+  font-size: 35px;
+  padding-left: 250px;
+  padding-right: 250px;
+  position: relative;
+  text-align: left;
+  display: block;
+  top: 7vh;
+  z-index: 999;
+}
+
+.author {
+  text-align: left;
+  font-size: 20px;
+  color: #566275;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 250px;
+  padding-right: 250px;
+  position: relative;
+  display: block;
+  top: 4vh;
+}
+
+hr.rounded {
+  border-top: 2px solid #2d394b;
+  border-radius: 5px;
+  margin-left: 250px;
+  margin-right: 250px;
+  position: relative;
+  display: block;
+  top: 12vh;
+}
+
+ion-icon {
+  align-items: left;
+  color:#2d394b;
+  font-size: 25px;
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+  top: 4vh;
+  cursor: pointer;
+}
+
+
+a {
+  text-decoration: none;
+  color: #197bff;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+a:hover {
+  color: #66a8ff;
+}
+
+h2 {
+  font-size: 30px;
+  padding-left: 250px;
+  padding-right: 250px;
+  position: relative;
+  text-align: left;
+  display: block;
+  top: 4vh;
+  z-index: 999;
+}
+
+.mobile {
+  display: none;
+}
+
+p2 {
+  text-indent: 20px;
+  font-size: 18px;
+  padding-left: 250px;
+  padding-right: 250px;
+  position: relative;
+  text-align: left;
+  display: block;
+  top: 3vh;
+  z-index: 999;
+}
+.ion-link {
+  margin-left: 250px;
+}
+.ion-arrow {
+  margin-left: 250px;
+  position: relative;
+  top: 9vh;
+  display: inline-block;
+}
+.danger {
+  position: relative;
+  top: 2vh;
+  background-color: #e6edff;
+  border-left: 6px solid #3669f4;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: 2px solid #3669f4;
+  border-right: 2px solid #3669f4;
+  border-bottom: 2px solid #3669f4;
+  border-radius: 5px;
+}
+p3 {
+  font-size: 22px;
+  padding-left: 250px;
+  padding-right: 250px;
+  position: relative;
+  text-align: left;
+  display: block;
+  top: 2.25vh;
+  z-index: 999;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+code {
+  font-size: 16px;
+  background-color: #d6d6d6;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+blockquote {
+  border-left: 6px solid #aaaaaa;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+cb {
+  background-color: #d6d6d6;
+  border: 1px solid #c2c2c2;
+  border-radius: 3px;
+  padding: 6px;
+}
+
+img {
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  max-width: 100%;
+  height: auto;
+  min-width: 50%;
+}
+/* Begin media queries */
+
+ @media only screen and (max-width: 1200px) {
+  .head, .author, h2, p2, p3 {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  hr.rounded, .danger {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .ion-link, .ion-arrow {
+    margin-left: 120px;
+  }
+ }
+ @media only screen and (max-width: 1000px) {
+  .head, .author, h2, p2, p3 {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+  hr.rounded, .danger {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+  .ion-link, .ion-arrow {
+    margin-left: 75px;
+  }
+ }
+ @media only screen and (max-width: 800px) {
+  .head, .author, h2, p2, p3 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  hr.rounded, .danger {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .ion-link, .ion-arrow {
+    margin-left: 20px;
+  }
+ }
+ @media only screen and (max-width: 490px) {
+   .head, .author, hr.rounded, ion-icon, h2, p2, .danger, p3, .ion-arrow {
+     display: none;
+   }
+   .mobile {
+     display: block;
+     font-size: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    text-align: center;
+    display: block;
+    top: 30vh;
+    z-index: 999;
+   }
+ }
