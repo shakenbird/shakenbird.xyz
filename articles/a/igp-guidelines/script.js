@@ -1,5 +1,7 @@
 function copyFunction() {
-  alert("This function failed to execute.");
+  navigator.clipboard.writeText(window.location.href).then(() => {
+  alert(`Copied ${window.location.href} to your clipboard.`)
+})
 }
 function printFunction() {
   window.print()
