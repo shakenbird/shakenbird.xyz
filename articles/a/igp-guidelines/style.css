@@ -1,3 +1,4 @@
+/* begin article utilities */
 body {
   background-color: white;
   background-size: cover;
@@ -5,8 +6,11 @@ body {
   color: #2d394b;
   font-size: 14px;
   bottom: -20px;
+  transition-duration:0.3s;
 }
-
+.body {
+  background-size: cover;
+}
 .head {
   font-size: 35px;
   padding-left: 250px;
@@ -21,7 +25,7 @@ body {
 .author {
   text-align: left;
   font-size: 20px;
-  color: #566275;
+  color:#566275;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 250px;
@@ -30,7 +34,6 @@ body {
   display: block;
   top: 4vh;
 }
-
 hr.rounded {
   border-top: 2px solid #2d394b;
   border-radius: 5px;
@@ -43,15 +46,19 @@ hr.rounded {
 
 ion-icon {
   align-items: left;
-  color:#2d394b;
   font-size: 25px;
   margin: 10px;
   position: relative;
   display: inline-block;
   top: 4vh;
   cursor: pointer;
+  padding:5px;
+  transition-duration: 0.35s
 }
-
+ion-icon:hover {
+  border-radius: 5px;
+  background-color: rgba(221, 221, 221, 0.35);
+}
 
 a {
   text-decoration: none;
@@ -114,6 +121,31 @@ p2 {
   border-bottom: 2px solid #3669f4;
   border-radius: 5px;
 }
+.ion-tags {
+  font-size: 16px;
+  align-items: left;
+  position: relative;
+  display: inline-block;
+  top: 0vh;
+  cursor: default;
+  padding-left: 10px;
+}
+.tags {
+  position: relative;
+  top: 5vh;
+  background-color: #ffffff;
+  border-left: 6px solid #d1d1d1;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: 2px solid #d1d1d1;
+  border-right: 2px solid #d1d1d1;
+  border-bottom: 2px solid #d1d1d1;
+  border-radius: 5px;
+}
 p3 {
   font-size: 22px;
   padding-left: 250px;
@@ -155,8 +187,9 @@ img {
   border-radius: 5px;
   box-shadow: 10px 10px 5px #aaaaaa;
   max-width: 100%;
+  min-width: 75%;
   height: auto;
-  min-width: 50%;
+  image-rendering: smooth;
 }
 .post {
   font-size: 15px;
@@ -166,6 +199,42 @@ img {
   display: block;
   align-items: center;
   top: 1.5vh;
+}
+.moon-icon {
+  margin-right:20px;
+  float:right;
+}
+.sun-icon {
+  display: none;
+}
+/* begin theme toggler */
+.dark {
+  background-color: #34323D;
+  color: #fff;
+}
+.danger-dark {
+  background-color: rgba(87, 129, 255, 0.3)
+}
+.light-icon {
+  display: none;
+}
+.dark-icon {
+  display: block;
+  position: relative;
+  margin-right:20px;
+  float:right;
+}
+.discord {
+  color: inherit;
+}
+.img-dark {
+  box-shadow: 10px 10px 5px #707070;
+}
+.dark-a {
+  color: #80b7ff;
+}
+.dark-author {
+  color: #d6d6d6;
 }
 /* Begin media queries */
 
