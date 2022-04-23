@@ -1,44 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body {
-  background-color: #c3cedf;
+  background-color: #f1f1f1;
   background-size: cover;
+  color: black;
+  font-size: 14px;
+  transition-duration:0.3s;
+  margin-left: 175px;
   font-family: 'Inter', sans-serif;
-  color: #2d394b;
-  overflow: hidden;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  margin-right: 250px;
 }
-
-.head {
-  font-size: 70px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+h1 {
+  font-size: 55px;
   position: relative;
+  text-align: left;
   display: block;
-  top: 30vh;
-  z-index: 999;
+  top: 35vh;
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
+}
+name {
+  color: rgba(39, 115, 230, 0.63)
 }
 ion-icon {
-  font-size: 44px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-size: 30px;
   position: relative;
-  display: inline-block;
   top: 35vh;
+  display: inline-block;
+  padding: 10px;
+  transition-duration: 0.45s;
+  margin-right: 5px;
 }
-.b {
-  margin-right: 24px;
+ion-icon:hover {
+  font-size: 29px;
+  color: #616161;
 }
-.b1 {
-  margin-left: 24px;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-a, a:focus, a:active, a:hover {
-      text-decoration: none;
-      color: #2d394b;
- }
- @media only screen and (max-width: 600px) {
-   .head {
-     font-size: 50px;
-   }
-   ion-icon {
-     font-size: 34;
-     top: 30vh;
-   }
- }
+a:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 650px) {
+  body {
+    margin-left: 125px;
+    margin-right: 125px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+}
+button {
+  position: relative;
+  display: block;
+  background-color: black;
+  color: white;
+  top: 70vh;
+  padding: 10px 30px 10px 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif !important;
+}
