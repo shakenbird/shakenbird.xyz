@@ -59,6 +59,12 @@ a:hover {
     margin-right: 75px;
   }
 }
+@media only screen and (max-width: 495px) {
+  body {
+    margin-left: 37.5px;
+    margin-right: 37.5px;
+  }
+}
 button {
   position: relative;
   display: block;
