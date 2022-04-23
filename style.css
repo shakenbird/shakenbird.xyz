@@ -33,7 +33,6 @@ ion-icon {
   top: 35vh;
   display: inline-block;
   padding: 10px;
-  transition-duration: 0.45s;
   margin-right: 5px;
 }
 ion-icon:hover {
