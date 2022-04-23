@@ -8,6 +8,7 @@ body {
   font-size: 14px;
   bottom: -20px;
   transition-duration:0.3s;
+  font-weight: 400;
 }
 .body {
   background-size: cover;
