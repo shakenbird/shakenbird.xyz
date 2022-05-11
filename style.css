@@ -68,7 +68,7 @@ button {
 .moon-icon {
   position: relative;
   float: right;
-  top: 1vh;
+  top: 4vh;
   cursor: pointer;
 }
 .sun-icon {
@@ -86,7 +86,7 @@ button {
   position: relative;
   display: block;
   float: right;
-  top: 1vh;
+  top: 4vh;
   cursor: pointer;
 }
 .dark-name {
